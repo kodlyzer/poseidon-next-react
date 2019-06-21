@@ -19,7 +19,7 @@ class Header extends Component {
                         </span>
                         <span className="kx-hamburger__txt kx-is-vishidden">Menu</span>
                     </button>
-                    <a className="kx-header__title" >
+                    <a href="#" className="kx-header__title" >
                         My Company
                     </a>
                     <div className="kx-header__tools">

@@ -3,7 +3,6 @@ import './App.css';
 import Header from '../../components/header/Header';
 import Nav from '../../components/nav/Nav';
 import Main from '../../components/main/Main';
-import Footer from '../../components/footer/Footer';
 
 import { connect } from 'react-redux';
 import { toggleSideNav } from '../../actions/page.action'
@@ -23,7 +22,6 @@ class App extends Component {
           <Nav page={this.props.page}></Nav>
           <Main page={this.props.page} toggleSideNav={this.props.toggleSideNav}>
           </Main>
-          <Footer></Footer>
         </div>
       </div>
     );
