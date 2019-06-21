@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavItems from '../nav-items/NavItems'
+import KxIcon from '../kx-icon/KxIcon';
 
 class Nav extends Component {
     render() {
@@ -26,11 +27,7 @@ class Nav extends Component {
                             <button className="kx-btn kx-btn--skin-primary kx-btn--size-base kx-btn--icon" aria-label="Search">
                                 <span className="kx-btn__inner">
                                     {/* ICON Component */}
-                                    <i className="kx-icon kx-icon--size-base">
-                                        <svg focusable="false">
-                                            <use xlinkHref="/assets/img/icons/sprites/icons.svg#search" />
-                                        </svg>
-                                    </i>
+                                    <KxIcon icon="search"></KxIcon>
                                     <span className="kx-btn__txt kx-is-vishidden">Search</span>
                                 </span>
                             </button>
