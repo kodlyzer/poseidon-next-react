@@ -1,0 +1,13 @@
+.cts-nav-open {
+    transform: translate3d(0px, 0px, 0px);
+    margin-right: 0px;
+    transition: all 0.3s ease;
+    margin-left: 0px;
+}
+
+.cts-nav-close {
+    transform: translate3d(-296px, 0px, 0px);
+    margin-right: -296px;
+    transition: all 0.3s ease;
+    margin-left: 0px;
+}
