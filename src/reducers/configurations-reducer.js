@@ -1,8 +1,8 @@
-// sample reducer to show combine 
 import { NEW_OPERATION } from '../constants/action-types';
+import { operation } from "../constants/new-operation.mock";
 
 const initialState = {
-    currentOperation: [] 
+    currentOperation: operation
 }
 
 export default function (state = initialState, action) {

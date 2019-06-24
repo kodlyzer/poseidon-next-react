@@ -19,7 +19,7 @@ export const Tab = (props) => {
 
 Tab.propTypes = {
     name: PropTypes.string.isRequired,
-    isActive: PropTypes.boolean 
+    isActive: PropTypes.bool 
 }
 
 export default Tab;
